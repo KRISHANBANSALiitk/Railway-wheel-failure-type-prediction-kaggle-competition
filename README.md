@@ -30,7 +30,7 @@ Created unique wheel IDs (truck + axle + side)
 
 Converted dates to monthly granularity
 
-Merged ~7 large sensor datasets
+Merged ~7 large datasets including sensor and labeled failure data
 
 Imputed missing engineered features with zeros (best for tree models)
 

@@ -23,7 +23,8 @@ Interpretable ML using SHAP
 Failure progression modeling (Markov transition analysis)
 
 **Approach Summary:**
-*Data Preparation:*
+
+**Data Preparation:**
 
 Created unique wheel IDs (truck + axle + side)
 
@@ -33,7 +34,7 @@ Merged ~7 large sensor datasets
 
 Imputed missing engineered features with zeros (best for tree models)
 
-*Feature Engineering:*
+**Feature Engineering:**
 
 Aggregated monthly statistics for each sensor
 
@@ -45,7 +46,7 @@ Included part mileage (strong wear signal)
 
 Excluded global mileage (not available in test set)
 
-*Modeling:*
+**Modeling:**
 
 Model: LightGBM
 
@@ -53,7 +54,7 @@ Loss: Multiclass log-loss
 
 No SMOTE/oversampling — anomaly features handled imbalance better
 
-*Results:*
+**Results:**
 Log-loss = 0.025
 Recall : 67%
 
